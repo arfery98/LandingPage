@@ -1,8 +1,11 @@
 import { Layout } from "./components/Layout.tsx";
+import { Hero } from "./components/sections/Hero.tsx";
 
 function App() {
   return (
-    <Layout title="EdgeAi"></Layout>
+    <Layout title="EdgeAi">
+      <Hero />
+    </Layout>
   )
 }
 
