@@ -27,7 +27,6 @@ export const Brands = () => {
                                 className="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105" />
                         </div>
                     ))}
-
                 </div>
             </Container>
         </section>
