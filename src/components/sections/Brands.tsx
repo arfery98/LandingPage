@@ -20,7 +20,7 @@ export const Brands = () => {
                     {logos.map((logo, key) => (
                         <div key={key} className="p-4 sm:p-5 rounded-xl bg-body border border-box-border group">
                             <img
-                                src={`/public/assets/logos/${logo}.svg`}
+                                src={`assets/logos/${logo}.svg`}
                                 width="100"
                                 height="60"
                                 alt={logo}
